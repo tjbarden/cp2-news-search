@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body {
+    background-color: seashell !important;
+}
+
+.submit {
+    margin: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}  
+.content {
+    width: 80%;
+    background-color: slategrey;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 15px;
+}
+.article {
+    min-height: 150px;
+    background-color: black;
+    margin: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+  .news-list {
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .divmain {
+      background-color: slategrey;
+      padding: 1%;
+  }
+
+  a {
+      color: rgb(255, 255, 255);
+      padding: 5px;
+      font-size: x-large;
+  }
+
+  ul, ol {
+    margin-left: 0.75em;
+    text-align: left;
+    list-style-position: inside;
+  }
+  .text {
+    color: rgb(255, 255, 255);
+    padding: 150px;
+  }
+  
+  .footer {
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  !important;
+    color: rgb(255, 255, 255);
+  }
+  
+  .logo {
+    width: 5rem;
+    height: auto;
+  }
+  
+  .github-link:link {
+    color: #A01821;
+  }
+  
+  .github-link:hover {
+    color: #EC838A;
+  }
+  
+  
+  .date {
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  !important;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px;
+    }
+  
+  .news-stories {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .single-news-story {
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    font-size: large;
+  }
+  
+  img {
+    max-width: 10rem;
+    height: auto;
+    margin: 5px;
+  }
+  
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .quote {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-style: oblique;
+    text-align: center;
+  }
+
+  .description {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  !important;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .forecast {
+    width: 98%;
+    background-color: rgb(230, 228, 228);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom:25%;
+    padding: 15px;
+  }
+
+  .temp {
+      margin-top: 0px;
+      margin-bottom: 1px;
+  }
+
+  .stuff {
+      margin: 0px;
+      padding: 0px;
+  }
